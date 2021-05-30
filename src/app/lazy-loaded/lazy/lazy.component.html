@@ -1,0 +1,4 @@
+<h2>Esta es la informacíon contenida dentro del Observable:</h2>
+<ng-container *ngIf="data$ | async as data">
+  <h3>{{ data?.name }}</h3>
+</ng-container>
